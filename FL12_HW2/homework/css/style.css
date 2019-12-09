@@ -121,7 +121,7 @@ section::before{
     li:nth-child(2n) { text-align: left; }
   li:nth-child(2n+1) { text-align: right;}
   #tmCarousel {display: inherit;}
-  ::before, ::after, ul, .gallery-container, .tm-content-box:last-of-type,
+  ::before, .text::after, ul, .gallery-container, .tm-content-box:last-of-type,
   .carousel-indicators, .tm-sidebar, .tm-team-img{
      display: none; }
 
