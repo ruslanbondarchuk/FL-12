@@ -113,23 +113,23 @@ section::before{
 }
 
 @media print {
-    #home {display: block; top: -100px;}
-    h {text-align: center;}
-    .padding-medium ol {position: relative;left: 150px;
-      list-style:none;align-items: center;max-width: 300px;}
-
-    li:nth-child(2n) { text-align: left; }
+    #home {display: block;}
+  .tm-team-description-container { max-width: 750px;}
+  p.tm-section-description {text-align: center; text-indent: 0px; }
+  *{justify-content: center;}
+  section.blocks{display: flex;}
+  .blocks h2:nth-child(1) {text-align: center;}
+  .padding-medium {padding: 0px; width: 1000px;}
+  .tm-main-content {padding-top: 0px;}
+  body{padding-top: 0;}
+  .tm-content-box{display: flex;}
+  .padding-medium ol {list-style-type: none; max-width: 300px; position: relative;left: 140px;}
+  li:nth-child(2n) { text-align: left; }
   li:nth-child(2n+1) { text-align: right;}
-  #tmCarousel {display: inherit;}
+  #tmCarousel {display: block; padding: 0;}
   ::before, .text::after, ul, .gallery-container, .tm-content-box:last-of-type,
   .carousel-indicators, .tm-sidebar, .tm-team-img{
      display: none; }
-
-    .tm-content-box{margin:0;}
-     *{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-   }
+  .tm-content-box{margin:0;}
 
 }
