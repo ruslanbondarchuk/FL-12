@@ -1,1 +1,89 @@
-// Write your styles here
+*{margin: 0; padding: 0;}
+.landing-logo {bottom: 20px;}
+.header  {
+  position: relative;
+  z-index: -2;
+  height: 600px;
+  background: $picture no-repeat center top;
+  background-position: 0 200;
+  background-size: 100% 700px;
+  border-bottom-right-radius: 500px 200px;
+  .header-wrap {margin: auto 10%;}
+   .header_heading{
+     width: 350px;
+     white-space: pre-line;
+     color: $header-textcolor;
+     font-size: 45px;
+     font-weight: 700;
+   position: static;
+ z-index: 2;}
+   .header_heading:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 190px;
+	  height: 40px;
+    position: relative;
+    top: -40px;
+    background-size: 100px 40px;
+    background-color: $words-mark-color;
+    z-index: -1;
+   }
+
+   .landing-logo {
+     padding-top: 20px;
+      p{
+        margin-left: 15px;
+     color: $header-textcolor;
+     font-weight: bold;
+     letter-spacing: 4px;
+   }
+ }
+   .login{
+     color: $header-hasanacc-link-color;
+   }
+}
+
+body {
+  background-color: $mainpage-backgroundcolor;
+}
+.header_text, .section_text, .section_card_text,
+.section_banner_text, .footer_text, .footer-cr {
+  text-decoration-color: $rest-text-color;
+  font-family: $font1;
+}
+.header{
+  text-decoration-color: $header-textcolor;
+  font-family: $font1;
+}
+.landing-logo{
+  display: flex;
+  p
+    span {
+      display: block;
+      letter-spacing: normal;
+      font-size: 8px;
+      font-weight: normal;
+      margin-left: 10px;
+          }
+        }
+
+
+.section_card_wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+button{
+  color: $button-textcolor;
+  background-color: $button-backgroundcolor;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 130px;
+}
+.section{
+    margin: auto 10%;
+}
