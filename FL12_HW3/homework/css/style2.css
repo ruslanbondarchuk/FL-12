@@ -37,7 +37,7 @@
     white-space: pre-line;
     color: #fff;
     font-size: 12px;
-    font-family: "Hind", sans-serif;
+    font-family: "Fresca", sans-serif;
     letter-spacing: 1px;
     line-height: 1.75em; }
   .header .landing-logo {
@@ -49,7 +49,7 @@
       letter-spacing: 4px; }
   .header .login {
     color: #fff;
-    font-family: "Hind", sans-serif;
+    font-family: "Fresca", sans-serif;
     font-size: inherit;
     display: inline-block;
     z-index: -1;
@@ -142,12 +142,12 @@ body {
   width: 380px;
   color: #d1d1d1;
   font-weight: normal;
-  font-family: "Hind", sans-serif;
+  font-family: "Fresca", sans-serif;
   font-size: 11px; }
 
 .section_link {
   color: #d1d1d1;
-  font-family: "Hind", sans-serif;
+  font-family: "Fresca", sans-serif;
   font-size: 11px; }
 
 .section_banner {
@@ -220,7 +220,7 @@ button, .section_banner_button {
       width: 30%;
       float: left;
       margin: 15px 0 0 40px;
-      font-family: "Hind", sans-serif;
+      font-family: "Fresca", sans-serif;
       font-size: 10px; }
     .footer .footer-wrap .footer-cr {
       padding-top: 20px;
