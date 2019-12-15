@@ -173,8 +173,9 @@ button {
   margin-left: 140px;
   padding: 10px 0; }
   .section_banner_text_wrap .section_banner_text {
-    margin-top: 4px; }
+    margin-top: 1px; }
   .section_banner_text_wrap .section_banner_heading {
+    height: 35px;
     color: #fff;
     display: block;
     font-weight: bold;

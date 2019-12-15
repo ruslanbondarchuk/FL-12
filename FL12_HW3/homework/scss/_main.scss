@@ -4,6 +4,11 @@
  font-family: $linkfont;
  font-size: $linkfontsize;
 }
+$headerfonts: (
+headerweight: 700,
+headerfontsize: 66px,
+headertextfontsize: 12px,
+);
 .landing-logo {bottom: 20px;}
 .header  {
   position: relative;
@@ -17,8 +22,8 @@
      width: 500px;
      white-space: pre-line;
      color: $header-textcolor;
-     font-size: 66px;
-     font-weight: 700;
+     font-size: map-get($headerfonts, headerfontsize);
+     font-weight: map-get($headerfonts, headerweight);
     position: static;
     z-index: 2;
     line-height: 1em;}
@@ -36,7 +41,7 @@
    .header_text{
      white-space: pre-line;
      color: $header-textcolor;
-     font-size: 12px;
+     font-size: map-get($headerfonts,headertextfontsize) ;
      font-family: $font2;
      letter-spacing: 1px;
      line-height: 1.75em;
@@ -165,8 +170,9 @@ body {
 button {@include button;}
 .section_banner_text_wrap{
   float: left; margin-left: 140px;padding: 10px 0;
-  .section_banner_text{margin-top: 4px;}
+  .section_banner_text{margin-top: 1px;}
   .section_banner_heading{
+    height: 35px;
     color: $banner-section-headercolor;
     display: block;
     font-weight: bold;
