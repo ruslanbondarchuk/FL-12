@@ -11,7 +11,14 @@
   height: 600px;
   background: url("../img/m-h-night.jpg") no-repeat center top;
   background-size: 100% 700px;
-  border-bottom-right-radius: 500px 200px; }
+  border-bottom-right-radius: 500px 200px;
+  /*.login{
+    display: inline-block;
+    z-index: -1;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: $header-hasanacc-link-color;
+  }*/ }
   .header .header-wrap {
     margin: auto 10%; }
   .header .header_heading {
@@ -48,11 +55,13 @@
       font-weight: bold;
       letter-spacing: 4px; }
   .header .login {
+    color: #fff;
+    font-family: "Hind", sans-serif;
+    font-size: inherit;
     display: inline-block;
     z-index: -1;
     margin-left: 60px;
-    margin-top: 50px;
-    color: #fff; }
+    margin-top: 50px; }
 
 .section_banner_text, .footer_text, .footer-cr {
   color: #d1d1d1;
@@ -143,9 +152,14 @@ body {
   font-family: "Hind", sans-serif;
   font-size: 11px; }
 
+/*.section_link{
+  color: $rest-text-color;
+  font-weight: normal;
+  font-family: $font2;
+  font-size: 11px;
+}*/
 .section_link {
   color: #d1d1d1;
-  font-weight: normal;
   font-family: "Hind", sans-serif;
   font-size: 11px; }
 

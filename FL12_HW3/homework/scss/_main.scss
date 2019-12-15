@@ -1,4 +1,9 @@
 *{margin: 0; padding: 0;}
+@mixin link($linkcolor, $linkfont, $linkfontsize:inherit){
+ color: $linkcolor;
+ font-family: $linkfont;
+ font-size: $linkfontsize;
+}
 .landing-logo {bottom: 20px;}
 .header  {
   position: relative;
@@ -48,13 +53,20 @@
    }
  }
 
-   .login{
+
+   /*.login{
      display: inline-block;
      z-index: -1;
      margin-left: 60px;
      margin-top: 50px;
      color: $header-hasanacc-link-color;
-   }
+   }*/
+   .login{
+     @include link($header-hasanacc-link-color, $font2){  }
+     display: inline-block;
+     z-index: -1;
+     margin-left: 60px;
+     margin-top: 50px;   }
 }
 
  .section_banner_text, .footer_text, .footer-cr {
@@ -142,12 +154,17 @@ body {
   font-family: $font2;
   font-size: 11px;
 }
-.section_link{
+/*.section_link{
   color: $rest-text-color;
   font-weight: normal;
   font-family: $font2;
   font-size: 11px;
-}
+}*/
+
+ .section_link{
+  @include link($rest-text-color, $font2, 11px){
+  }}
+
 .section_banner{position: relative;bottom: -45px;z-index: 0;
   width: 930px; height: 90px;
   margin: auto; border-radius: 7px;
