@@ -193,6 +193,12 @@ button {
     z-index: -1; }
 
 .section_banner_button {
+  color: #fff;
+  background-color: #e3ac00;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 130px;
   float: right;
   position: relative;
   margin-top: 2.6%;
