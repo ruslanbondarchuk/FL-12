@@ -10,20 +10,21 @@
   border-bottom-right-radius: 500px 200px;
   .header-wrap {margin: auto 10%;}
    .header_heading{
-     width: 350px;
+     width: 500px;
      white-space: pre-line;
      color: $header-textcolor;
-     font-size: 45px;
+     font-size: 66px;
      font-weight: 700;
     position: static;
- z-index: 2;}
+    z-index: 2;
+    line-height: 1em;}
    .header_heading:after{
     content:"";
     display: block;
-    width: 190px;
-	  height: 40px;
+    width: 280px;
+	  height: 55px;
     position: relative;
-    top: -40px;
+    top: -58px;
     background-size: 100px 40px;
     background-color: $words-mark-color;
     z-index: -1;
@@ -32,7 +33,9 @@
      white-space: pre-line;
      color: $header-textcolor;
      font-size: 12px;
-     font-family: $font1;
+     font-family: $font2;
+     letter-spacing: 1px;
+     line-height: 1.75em;
    }
 
 
@@ -109,8 +112,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
-}
+  padding-bottom: 70px;
+  }
 .section_card{width: 860px; height: 230px;
   background-color: $blocks-footer-backgroundcolor;
   border-radius: 5px;
@@ -146,7 +149,11 @@ body {
   font-family: $font2;
   font-size: 11px;
 }
-
+.section_banner{position: relative;bottom: -45px;z-index: 0;
+  width: 930px; height: 90px;
+  margin: auto; border-radius: 7px;
+  background: linear-gradient(90deg, $grad-start, $grad-end) ;
+}
 button{
   color: $button-textcolor;
   background-color: $button-backgroundcolor;
@@ -155,4 +162,39 @@ button{
   height: 40px;
   width: 130px;
 }
-//border: 1px solid #fff;//overflow: hidden;
+.section_banner_text_wrap{
+  float: left; margin: auto;
+}
+.section_banner_button{
+  float: right;
+  position: relative;
+  margin-top: 2.6%;
+  margin-right: 12%;
+}
+.footer{
+  background-color: $blocks-footer-backgroundcolor;
+  z-index: -2;
+  .footer-wrap{
+    padding-top: 65px;
+    height: 130px;
+    margin: auto 10%;
+    //display: flex;
+    //align-items: center;
+    //align-content: space-around;
+    .footer_logo{padding-top: 18px;
+      p {color: $rest-text-color;
+      padding-left: 15px;
+    position: relative;bottom: -7px;}
+      width: 33%;
+      float: left;
+    }
+    .footer_text{
+      width: 20%;
+      float: left;
+    }
+  .footer-cr{
+    padding-top: 20px;
+    width: 20%;
+    float: right;
+  }
+}}

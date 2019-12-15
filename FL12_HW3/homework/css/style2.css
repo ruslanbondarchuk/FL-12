@@ -16,20 +16,21 @@
   .header .header-wrap {
     margin: auto 10%; }
   .header .header_heading {
-    width: 350px;
+    width: 500px;
     white-space: pre-line;
     color: #fff;
-    font-size: 45px;
+    font-size: 66px;
     font-weight: 700;
     position: static;
-    z-index: 2; }
+    z-index: 2;
+    line-height: 1em; }
   .header .header_heading:after {
     content: "";
     display: block;
-    width: 190px;
-    height: 40px;
+    width: 280px;
+    height: 55px;
     position: relative;
-    top: -40px;
+    top: -58px;
     background-size: 100px 40px;
     background-color: #ff4e33;
     z-index: -1; }
@@ -37,7 +38,9 @@
     white-space: pre-line;
     color: #fff;
     font-size: 12px;
-    font-family: "Source Sans Pro", sans-serif; }
+    font-family: "Hind", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.75em; }
   .header .landing-logo {
     padding-top: 20px; }
     .header .landing-logo p {
@@ -103,7 +106,8 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-bottom: 70px; }
 
 .section_card {
   width: 860px;
@@ -146,6 +150,16 @@ body {
   font-family: "Hind", sans-serif;
   font-size: 11px; }
 
+.section_banner {
+  position: relative;
+  bottom: -45px;
+  z-index: 0;
+  width: 930px;
+  height: 90px;
+  margin: auto;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #dea404, #953150); }
+
 button {
   color: #fff;
   background-color: #e3ac00;
@@ -153,3 +167,37 @@ button {
   border-radius: 3px;
   height: 40px;
   width: 130px; }
+
+.section_banner_text_wrap {
+  float: left;
+  margin: auto; }
+
+.section_banner_button {
+  float: right;
+  position: relative;
+  margin-top: 2.6%;
+  margin-right: 12%; }
+
+.footer {
+  background-color: #3b3f50;
+  z-index: -2; }
+  .footer .footer-wrap {
+    padding-top: 65px;
+    height: 130px;
+    margin: auto 10%; }
+    .footer .footer-wrap .footer_logo {
+      padding-top: 18px;
+      width: 33%;
+      float: left; }
+      .footer .footer-wrap .footer_logo p {
+        color: #d1d1d1;
+        padding-left: 15px;
+        position: relative;
+        bottom: -7px; }
+    .footer .footer-wrap .footer_text {
+      width: 20%;
+      float: left; }
+    .footer .footer-wrap .footer-cr {
+      padding-top: 20px;
+      width: 20%;
+      float: right; }
