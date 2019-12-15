@@ -5,7 +5,6 @@
   z-index: -2;
   height: 600px;
   background: $picture no-repeat center top;
-  background-position: 0 200;
   background-size: 100% 700px;
   border-bottom-right-radius: 500px 200px;
   .header-wrap {margin: auto 10%;}
@@ -103,7 +102,6 @@
         }
 body {
           background-color: $mainpage-backgroundcolor;
-          z-index: -3;
         }
 
 .section_card_wrap{

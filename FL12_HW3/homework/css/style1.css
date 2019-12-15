@@ -10,7 +10,6 @@
   z-index: -2;
   height: 600px;
   background: url("../img/m-h-day.jpg") no-repeat center top;
-  background-position: 0 200;
   background-size: 100% 700px;
   border-bottom-right-radius: 500px 200px; }
   .header .header-wrap {
@@ -98,8 +97,7 @@
   z-index: -1; }
 
 body {
-  background-color: #fff;
-  z-index: -3; }
+  background-color: #fff; }
 
 .section_card_wrap {
   top: 10px;
