@@ -52,7 +52,7 @@
     margin-top: 50px;
     color: #fff; }
 
-.section_card_text, .section_banner_text, .footer_text, .footer-cr {
+.section_banner_text, .footer_text, .footer-cr {
   color: #d1d1d1;
   font-family: "Source Sans Pro", sans-serif; }
 
@@ -78,19 +78,19 @@
   position: static;
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: bolder;
-  font-size: 25px;
+  font-weight: normal;
+  font-size: 33px;
   margin-top: 30px;
   letter-spacing: 0.035em; }
 
 .section_text::after {
   content: "";
   display: block;
-  width: 128px;
+  width: 155px;
   height: 40px;
   position: relative;
   top: -40px;
-  left: 50.1%;
+  left: 50.5%;
   background-color: #ff4e33;
   z-index: -1; }
 
@@ -103,7 +103,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .section_card {
   width: 860px;
@@ -113,11 +113,38 @@ body {
   margin: 10px; }
 
 .section_card_img {
-  padding: 10px;
+  margin: 10px;
   border-radius: 5px;
   float: left;
   width: 280px;
   height: 210px; }
+
+.section_card_right_container {
+  margin: 35px 0 35px 0;
+  min-height: 160px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.section_card_heading {
+  color: #fff;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px; }
+
+.section_card_text {
+  width: 380px;
+  color: #d1d1d1;
+  font-weight: normal;
+  font-family: "Hind", sans-serif;
+  font-size: 11px; }
+
+.section_link {
+  color: #d1d1d1;
+  font-weight: normal;
+  font-family: "Hind", sans-serif;
+  font-size: 11px; }
 
 button {
   color: #fff;

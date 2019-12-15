@@ -55,7 +55,7 @@
    }
 }
 
- .section_card_text,.section_banner_text, .footer_text, .footer-cr {
+ .section_banner_text, .footer_text, .footer-cr {
   color: $rest-text-color;
   font-family: $font1;
 }
@@ -81,8 +81,8 @@
           position: static;
           text-align: center;
           font-family: $font1;
-          font-weight: bolder;
-          font-size: 25px;
+          font-weight: normal;
+          font-size: 33px;
           margin-top: 30px;
           letter-spacing: 0.035em;
         }
@@ -90,11 +90,11 @@
           content:"";
           display: block;
 
-          width: 128px;
+          width: 155px;
           height: 40px;
           position: relative;
           top: -40px;
-          left: 50.1%;
+          left: 50.5%;
           background-color: $words-mark-color;
           z-index: -1;
         }
@@ -108,16 +108,43 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .section_card{width: 860px; height: 230px;
-  background-color: $blocks-footer-backgroundcolor;border-radius: 5px;
-  //overflow: hidden;
+  background-color: $blocks-footer-backgroundcolor;
+  border-radius: 5px;
   margin: 10px;
 }
-.section_card_img{padding: 10px;border-radius:5px;
+.section_card_img{margin: 10px;border-radius:5px;
   float: left;width: 280px;height: 210px;
+}
+.section_card_right_container{
+  margin: 35px 0 35px 0;
+  min-height: 160px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section_card_heading{
+  color: #fff;
+  font-weight: normal;
+  font-family: $font1;
+  font-size: 16px;
+}
+.section_card_text{
+  width: 380px;
+  color: $rest-text-color;
+  font-weight: normal;
+  font-family: $font2;
+  font-size: 11px;
+}
+.section_link{
+  color: $rest-text-color;
+  font-weight: normal;
+  font-family: $font2;
+  font-size: 11px;
 }
 
 button{
@@ -128,3 +155,4 @@ button{
   height: 40px;
   width: 130px;
 }
+//border: 1px solid #fff;//overflow: hidden;
