@@ -192,8 +192,8 @@ button {@include button;}
       z-index: -1;
     }
 }
-.section_banner_button{
-  @include button;
+.section_banner_button{//  @include button;
+  @extend button;
   float: right;
   position: relative;
   margin-top: 2.6%;

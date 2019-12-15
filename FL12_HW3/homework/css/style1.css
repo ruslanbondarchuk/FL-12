@@ -160,7 +160,7 @@ body {
   border-radius: 7px;
   background: linear-gradient(90deg, #65950d, #305ece); }
 
-button {
+button, .section_banner_button {
   color: #fff;
   background-color: #699900;
   border: none;
@@ -195,12 +195,6 @@ button {
     z-index: -1; }
 
 .section_banner_button {
-  color: #fff;
-  background-color: #699900;
-  border: none;
-  border-radius: 3px;
-  height: 40px;
-  width: 130px;
   float: right;
   position: relative;
   margin-top: 2.6%;
