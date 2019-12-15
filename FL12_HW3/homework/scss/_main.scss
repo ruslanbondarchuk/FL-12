@@ -52,15 +52,6 @@
      letter-spacing: 4px;
    }
  }
-
-
-   /*.login{
-     display: inline-block;
-     z-index: -1;
-     margin-left: 60px;
-     margin-top: 50px;
-     color: $header-hasanacc-link-color;
-   }*/
    .login{
      @include link($header-hasanacc-link-color, $font2){  }
      display: inline-block;
@@ -154,13 +145,6 @@ body {
   font-family: $font2;
   font-size: 11px;
 }
-/*.section_link{
-  color: $rest-text-color;
-  font-weight: normal;
-  font-family: $font2;
-  font-size: 11px;
-}*/
-
  .section_link{
   @include link($rest-text-color, $font2, 11px){
   }}

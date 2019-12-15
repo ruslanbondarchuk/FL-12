@@ -11,14 +11,7 @@
   height: 600px;
   background: url("../img/m-h-night.jpg") no-repeat center top;
   background-size: 100% 700px;
-  border-bottom-right-radius: 500px 200px;
-  /*.login{
-    display: inline-block;
-    z-index: -1;
-    margin-left: 60px;
-    margin-top: 50px;
-    color: $header-hasanacc-link-color;
-  }*/ }
+  border-bottom-right-radius: 500px 200px; }
   .header .header-wrap {
     margin: auto 10%; }
   .header .header_heading {
@@ -152,12 +145,6 @@ body {
   font-family: "Hind", sans-serif;
   font-size: 11px; }
 
-/*.section_link{
-  color: $rest-text-color;
-  font-weight: normal;
-  font-family: $font2;
-  font-size: 11px;
-}*/
 .section_link {
   color: #d1d1d1;
   font-family: "Hind", sans-serif;
