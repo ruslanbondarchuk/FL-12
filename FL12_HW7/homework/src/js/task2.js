@@ -1,8 +1,12 @@
-// Your code goes here
-let range = 8;
+const initialrange = 8;
+const three =3;
+const gold = 100;
+const silver = 50;
+const bronze = 25;
+let range = initialrange;
 let rangeiterration = 4;
 let totalprize = 0;
-let prizes = [100, 50,25];
+let prizes = [gold, silver, bronze];
 let commoniterration = 1;
 let confirmtext = 'Do you want to play a game?';
 let byealert = 'You did not become a billionaire, but can.';
@@ -14,9 +18,9 @@ let attempt = 3;
                 for (; attempt > 0; attempt-- ) {
                     let letstry = parseInt(prompt('Choose a roulet pocket number from 0 to '+
                     range+ '\nAttempts left: '+attempt+'\nTotal prize = '+ totalprize+ '$'+
-                    '\nPossible prize on current attempt: '+commoniterration*prizes[3-attempt]+ '$'));
+                    '\nPossible prize on current attempt: '+commoniterration*prizes[three-attempt]+ '$'));
                             if (letstry === guessnum) {
-                              totalprize = commoniterration*prizes[3-attempt]+totalprize;
+                              totalprize = commoniterration*prizes[three-attempt]+totalprize;
                               commoniterration++;
                               range = range + rangeiterration;
                               agree = confirm('Congratulations, you won! Your prize is '+ totalprize+
@@ -30,8 +34,8 @@ let attempt = 3;
                 byealert = 'Thank you for your participation. Your prize is '+ totalprize+'$';
                 agree = confirm('Do you want to play Again?');
                 commoniterration = 1;
-                range = 8;
+                range = initialrang;
               }
-              attempt = 3;
+              attempt = three;
     }
 alert(byealert);
