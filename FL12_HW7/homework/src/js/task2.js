@@ -34,7 +34,7 @@ let attempt = 3;
                 byealert = 'Thank you for your participation. Your prize is '+ totalprize+'$';
                 agree = confirm('Do you want to play Again?');
                 commoniterration = 1;
-                range = initialrang;
+                range = initialrange;
               }
               attempt = three;
     }
