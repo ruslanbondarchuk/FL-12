@@ -161,12 +161,13 @@ function getPastDay(inputDate, pastDays) {
 }
 console.log(getPastDay(date, const58));
 
-
-
-let inputDate = new Date('6/15/2018 09:15:00')
+const const9 = 9;
 
 function formatDate(inputDate) {
-  console.log(inputDate)
+  let HH = inputDate.getHours() > const9 ? inputDate.getHours() : '0' + inputDate.getHours();
+  let mm = inputDate.getMinutes() > const9 ? inputDate.getMinutes() : '0' + inputDate.getMinutes();
+  return `${inputDate.getFullYear()}/${inputDate.getMonth() + 1}/${inputDate.getDate()} ${HH}:${mm}`;
 }
 
-formatDate(inputDate);
+console.log(formatDate(new Date('6/15/2018 09:15:00')));
+console.log(formatDate(new Date()));
