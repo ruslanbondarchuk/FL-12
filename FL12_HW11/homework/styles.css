@@ -1,0 +1,25 @@
+/* Todo: your styles go here*/
+.file :hover, .folder :hover{
+  background: lightgray;
+}
+li {
+  list-style: none;
+}
+.active {
+  display: block;
+}
+.nested {
+  display: none;
+}
+
+.material-icons {
+  vertical-align: bottom;
+}
+
+.caret {
+  cursor: pointer;
+}
+
+.folder {
+  cursor: pointer;
+}
